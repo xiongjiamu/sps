@@ -4734,6 +4734,31 @@
   width:77px;
   white-space:nowrap;
 }
+#u313 {
+  position:absolute;
+  left:40px;
+  top:240px;
+  width:77px;
+  height:21px;
+  font-family:'微软雅黑 Regular', '微软雅黑';
+  font-weight:400;
+  font-style:normal;
+  font-size:16px;
+}
+#u313_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:77px;
+  height:21px;
+}
+#u314 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:77px;
+  white-space:nowrap;
+}
 #u296_state1 {
   position:relative;
   left:0px;
@@ -4748,21 +4773,21 @@
   width:1px;
   height:1px;
 }
-#u313 {
+#u315 {
   position:absolute;
   left:0px;
   top:0px;
   width:25px;
   height:980px;
 }
-#u313_img {
+#u315_img {
   position:absolute;
   left:0px;
   top:0px;
   width:25px;
   height:980px;
 }
-#u314 {
+#u316 {
   position:absolute;
   left:2px;
   top:482px;
@@ -4770,7 +4795,7 @@
   visibility:hidden;
   word-wrap:break-word;
 }
-#u315 {
+#u317 {
   position:absolute;
   left:6px;
   top:20px;
@@ -4783,14 +4808,14 @@
   color:#666666;
   text-align:left;
 }
-#u315_img {
+#u317_img {
   position:absolute;
   left:0px;
   top:0px;
   width:14px;
   height:22px;
 }
-#u316 {
+#u318 {
   position:absolute;
   left:0px;
   top:0px;
@@ -4798,7 +4823,7 @@
   visibility:hidden;
   word-wrap:break-word;
 }
-#u317 {
+#u319 {
   position:absolute;
   left:208px;
   top:16px;
@@ -4809,21 +4834,21 @@
   font-style:normal;
   font-size:20px;
 }
-#u317_img {
+#u319_img {
   position:absolute;
   left:0px;
   top:0px;
   width:81px;
   height:27px;
 }
-#u318 {
+#u320 {
   position:absolute;
   left:0px;
   top:0px;
   width:81px;
   white-space:nowrap;
 }
-#u319 {
+#u321 {
   position:absolute;
   left:300px;
   top:18px;
@@ -4832,21 +4857,21 @@
   font-family:'微软雅黑 Bold', '微软雅黑';
   font-style:normal;
 }
-#u319_img {
+#u321_img {
   position:absolute;
   left:0px;
   top:0px;
   width:29px;
   height:24px;
 }
-#u320 {
+#u322 {
   position:absolute;
   left:0px;
   top:0px;
   width:29px;
   white-space:nowrap;
 }
-#u321 {
+#u323 {
   position:absolute;
   left:339px;
   top:20px;
@@ -4857,14 +4882,14 @@
   font-style:normal;
   font-size:16px;
 }
-#u321_img {
+#u323_img {
   position:absolute;
   left:0px;
   top:0px;
   width:81px;
   height:16px;
 }
-#u322 {
+#u324 {
   position:absolute;
   left:0px;
   top:0px;
@@ -6293,6 +6318,8 @@ body.a {  background-color:rgba(255, 255, 255, 1);
 }
 #u321.a {
 }
+#u323.a {
+}
 body.b {  background-color:rgba(255, 255, 255, 1);
   background-image:none;
   position:static;
@@ -7713,4 +7740,6 @@ body.b {  background-color:rgba(255, 255, 255, 1);
 #u319.b {
 }
 #u321.b {
+}
+#u323.b {
 }
