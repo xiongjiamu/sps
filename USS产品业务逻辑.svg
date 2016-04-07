@@ -3,7 +3,7 @@
 <!-- 由 Microsoft Visio, SVG Export 生成 USS产品业务逻辑.svg USS产品流程 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
 		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="11.6929in" height="9.2126in"
-		viewBox="0 0 841.89 663.307" xml:space="preserve" color-interpolation-filters="sRGB" class="st17">
+		viewBox="0 0 841.89 663.307" xml:space="preserve" color-interpolation-filters="sRGB" class="st18">
 	<v:documentProperties v:langID="2052" v:metric="true" v:viewMarkup="false">
 		<v:userDefs>
 			<v:ud v:nameU="msvNoAutoConnect" v:val="VT0(0):26"/>
@@ -28,7 +28,8 @@
 		.st14 {fill:#ffffff;stroke:none;stroke-linecap:butt;stroke-width:7.2}
 		.st15 {fill:#4f87bb;font-family:微软雅黑;font-size:0.666664em}
 		.st16 {font-size:1em}
-		.st17 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+		.st17 {font-size:0.799995em}
+		.st18 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
 	]]>
 	</style>
 
@@ -100,7 +101,6 @@
 				<v:ud v:nameU="msvSDHeadingStyle" v:prompt="" v:val="VT0(3):26"/>
 				<v:ud v:nameU="HeadingSide" v:prompt="" v:val="VT0(2):26"/>
 				<v:ud v:nameU="BaseColor" v:prompt="" v:val="VT5(#ffffff)"/>
-				<v:ud v:nameU="LineColor" v:prompt="" v:val="VT5(#d5d5d5)"/>
 			</v:userDefs>
 			<title>交替</title>
 			<g id="group78-2" v:mID="78" v:groupContext="group" v:layerMember="2">
@@ -279,7 +279,6 @@
 				<v:ud v:nameU="msvSDHeadingStyle" v:prompt="" v:val="VT0(3):26"/>
 				<v:ud v:nameU="HeadingSide" v:prompt="" v:val="VT0(2):26"/>
 				<v:ud v:nameU="BaseColor" v:prompt="" v:val="VT5(#ffffff)"/>
-				<v:ud v:nameU="LineColor" v:prompt="" v:val="VT5(#d5d5d5)"/>
 			</v:userDefs>
 			<title>交替.101</title>
 			<g id="group102-28" v:mID="102" v:groupContext="group" v:layerMember="2">
@@ -922,7 +921,7 @@
 			<g id="shape10-219" v:mID="10" v:groupContext="shape" v:layerMember="0"
 					transform="translate(-539.606,663.307) rotate(-90)">
 				<title>流程.10</title>
-				<desc>BI数据支持</desc>
+				<desc>数据平台支持</desc>
 				<v:custProps>
 					<v:cp v:nameU="Cost" v:lbl="成本" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
 							v:langID="2052" v:cal="0"/>
@@ -952,7 +951,7 @@
 					<rect x="0" y="614.213" width="220.079" height="49.0945" class="st6"/>
 				</g>
 				<rect x="0" y="614.213" width="220.079" height="49.0945" class="st7"/>
-				<text x="85.43" y="641.76" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>BI数据支持</text>			</g>
+				<text x="80.04" y="641.76" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>数据平台支持</text>			</g>
 			<g id="shape14-225" v:mID="14" v:groupContext="shape" v:layerMember="1;0">
 				<title>页面内引用</title>
 				<desc>贡献度</desc>
@@ -969,7 +968,7 @@
 				<text x="9.55" y="641.76" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>贡献度</text>			</g>
 			<g id="shape15-231" v:mID="15" v:groupContext="shape" v:layerMember="1;0" transform="translate(3.95683E-013,-56.9948)">
 				<title>页面内引用.15</title>
-				<desc>质量分</desc>
+				<desc>质量分 (按产品)</desc>
 				<v:userDefs>
 					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
 				</v:userDefs>
@@ -980,8 +979,9 @@
 					<path d="M0 638.76 A24.5472 24.5472 0 1 1 49.09 638.76 A24.5472 24.5472 0 0 1 0 638.76 Z" class="st6"/>
 				</g>
 				<path d="M0 638.76 A24.5472 24.5472 0 1 1 49.09 638.76 A24.5472 24.5472 0 0 1 0 638.76 Z" class="st7"/>
-				<text x="9.55" y="641.76" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>质量分</text>			</g>
-			<g id="shape16-237" v:mID="16" v:groupContext="shape" v:layerMember="1;0" transform="translate(2.07834E-013,-113.99)">
+				<text x="9.55" y="635.76" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>质量分<v:newlineChar/><tspan
+							x="9.88" dy="1.5em" class="st17">(</tspan><tspan class="st17">按产品</tspan><tspan class="st17">)</tspan></text>			</g>
+			<g id="shape16-240" v:mID="16" v:groupContext="shape" v:layerMember="1;0" transform="translate(2.07834E-013,-113.99)">
 				<title>页面内引用.16</title>
 				<desc>活跃度</desc>
 				<v:userDefs>
@@ -989,13 +989,13 @@
 				</v:userDefs>
 				<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
 				<v:textRect cx="24.5472" cy="638.76" width="49.1" height="49.0945"/>
-				<g id="shadow16-238" v:groupContext="shadow" v:shadowOffsetX="0.345598" v:shadowOffsetY="-1.97279" v:shadowType="1"
+				<g id="shadow16-241" v:groupContext="shadow" v:shadowOffsetX="0.345598" v:shadowOffsetY="-1.97279" v:shadowType="1"
 						transform="matrix(1,0,0,1,0.345598,1.97279)" class="st1">
 					<path d="M0 638.76 A24.5472 24.5472 0 1 1 49.09 638.76 A24.5472 24.5472 0 0 1 0 638.76 Z" class="st6"/>
 				</g>
 				<path d="M0 638.76 A24.5472 24.5472 0 1 1 49.09 638.76 A24.5472 24.5472 0 0 1 0 638.76 Z" class="st7"/>
 				<text x="9.55" y="641.76" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>活跃度</text>			</g>
-			<g id="shape17-243" v:mID="17" v:groupContext="shape" v:layerMember="1;0" transform="translate(1.19904E-014,-170.984)">
+			<g id="shape17-246" v:mID="17" v:groupContext="shape" v:layerMember="1;0" transform="translate(1.19904E-014,-170.984)">
 				<title>页面内引用.17</title>
 				<desc>关键词</desc>
 				<v:userDefs>
@@ -1003,30 +1003,30 @@
 				</v:userDefs>
 				<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
 				<v:textRect cx="24.5472" cy="638.76" width="49.1" height="49.0945"/>
-				<g id="shadow17-244" v:groupContext="shadow" v:shadowOffsetX="0.345598" v:shadowOffsetY="-1.97279" v:shadowType="1"
+				<g id="shadow17-247" v:groupContext="shadow" v:shadowOffsetX="0.345598" v:shadowOffsetY="-1.97279" v:shadowType="1"
 						transform="matrix(1,0,0,1,0.345598,1.97279)" class="st1">
 					<path d="M0 638.76 A24.5472 24.5472 0 1 1 49.09 638.76 A24.5472 24.5472 0 0 1 0 638.76 Z" class="st6"/>
 				</g>
 				<path d="M0 638.76 A24.5472 24.5472 0 1 1 49.09 638.76 A24.5472 24.5472 0 0 1 0 638.76 Z" class="st7"/>
 				<text x="9.55" y="641.76" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>关键词</text>			</g>
 		</g>
-		<g id="shape97-249" v:mID="97" v:groupContext="shape" v:layerMember="1" transform="translate(194.567,-257.756)">
+		<g id="shape97-252" v:mID="97" v:groupContext="shape" v:layerMember="1" transform="translate(194.567,-257.756)">
 			<title>动态连接线.97</title>
 			<path d="M0 663.31 L32.2 663.31 L32.2 577.81 L110.2 577.81" class="st11"/>
 		</g>
-		<g id="shape98-254" v:mID="98" v:groupContext="shape" v:layerMember="1" transform="translate(194.567,-257.756)">
+		<g id="shape98-257" v:mID="98" v:groupContext="shape" v:layerMember="1" transform="translate(194.567,-257.756)">
 			<title>动态连接线.98</title>
 			<path d="M0 663.31 L32.2 663.31 L32.2 634.81 L110.2 634.81" class="st11"/>
 		</g>
-		<g id="shape99-259" v:mID="99" v:groupContext="shape" v:layerMember="1" transform="translate(194.567,-257.756)">
+		<g id="shape99-262" v:mID="99" v:groupContext="shape" v:layerMember="1" transform="translate(194.567,-257.756)">
 			<title>动态连接线.99</title>
 			<path d="M0 663.31 L32.2 663.31 L32.2 691.8 L110.2 691.8" class="st11"/>
 		</g>
-		<g id="shape100-264" v:mID="100" v:groupContext="shape" v:layerMember="1" transform="translate(194.567,-257.756)">
+		<g id="shape100-267" v:mID="100" v:groupContext="shape" v:layerMember="1" transform="translate(194.567,-257.756)">
 			<title>动态连接线.100</title>
 			<path d="M0 663.31 L32.2 663.31 L32.2 748.8 L110.2 748.8" class="st11"/>
 		</g>
-		<g id="shape40-269" v:mID="40" v:groupContext="shape" v:layerMember="0" transform="translate(490.394,-171.757)">
+		<g id="shape40-272" v:mID="40" v:groupContext="shape" v:layerMember="0" transform="translate(490.394,-171.757)">
 			<title>流程.40</title>
 			<desc>基本信息</desc>
 			<v:custProps>
@@ -1053,13 +1053,13 @@
 			</v:userDefs>
 			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
 			<v:textRect cx="35.4331" cy="646.299" width="70.87" height="34.0157"/>
-			<g id="shadow40-270" v:groupContext="shadow" v:shadowOffsetX="0.345598" v:shadowOffsetY="-1.97279" v:shadowType="1"
+			<g id="shadow40-273" v:groupContext="shadow" v:shadowOffsetX="0.345598" v:shadowOffsetY="-1.97279" v:shadowType="1"
 					transform="matrix(1,0,0,1,0.345598,1.97279)" class="st1">
 				<rect x="0" y="629.291" width="70.8661" height="34.0157" class="st6"/>
 			</g>
 			<rect x="0" y="629.291" width="70.8661" height="34.0157" class="st7"/>
 			<text x="15.43" y="649.3" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>基本信息</text>		</g>
-		<g id="shape41-275" v:mID="41" v:groupContext="shape" v:layerMember="0" transform="translate(589.606,-171.757)">
+		<g id="shape41-278" v:mID="41" v:groupContext="shape" v:layerMember="0" transform="translate(589.606,-171.757)">
 			<title>流程.41</title>
 			<desc>联系信息</desc>
 			<v:custProps>
@@ -1086,13 +1086,13 @@
 			</v:userDefs>
 			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
 			<v:textRect cx="35.4331" cy="646.299" width="70.87" height="34.0157"/>
-			<g id="shadow41-276" v:groupContext="shadow" v:shadowOffsetX="0.345598" v:shadowOffsetY="-1.97279" v:shadowType="1"
+			<g id="shadow41-279" v:groupContext="shadow" v:shadowOffsetX="0.345598" v:shadowOffsetY="-1.97279" v:shadowType="1"
 					transform="matrix(1,0,0,1,0.345598,1.97279)" class="st1">
 				<rect x="0" y="629.291" width="70.8661" height="34.0157" class="st6"/>
 			</g>
 			<rect x="0" y="629.291" width="70.8661" height="34.0157" class="st7"/>
 			<text x="8.95" y="649.3" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>联系信息 ！</text>		</g>
-		<g id="shape108-281" v:mID="108" v:groupContext="shape" v:layerMember="0" transform="translate(715.748,-248.293)">
+		<g id="shape108-284" v:mID="108" v:groupContext="shape" v:layerMember="0" transform="translate(715.748,-248.293)">
 			<title>流程.108</title>
 			<desc>数据导出</desc>
 			<v:custProps>
@@ -1119,21 +1119,21 @@
 			</v:userDefs>
 			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
 			<v:textRect cx="35.4331" cy="646.299" width="70.87" height="34.0157"/>
-			<g id="shadow108-282" v:groupContext="shadow" v:shadowOffsetX="0.345598" v:shadowOffsetY="-1.97279" v:shadowType="1"
+			<g id="shadow108-285" v:groupContext="shadow" v:shadowOffsetX="0.345598" v:shadowOffsetY="-1.97279" v:shadowType="1"
 					transform="matrix(1,0,0,1,0.345598,1.97279)" class="st1">
 				<rect x="0" y="629.291" width="70.8661" height="34.0157" class="st6"/>
 			</g>
 			<rect x="0" y="629.291" width="70.8661" height="34.0157" class="st7"/>
 			<text x="15.43" y="649.3" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>数据导出</text>		</g>
-		<g id="shape109-287" v:mID="109" v:groupContext="shape" v:layerMember="1" transform="translate(572.598,-248.293)">
+		<g id="shape109-290" v:mID="109" v:groupContext="shape" v:layerMember="1" transform="translate(572.598,-248.293)">
 			<title>动态连接线.109</title>
 			<path d="M0 663.31 L0 684.57 L-46.77 684.57 L-46.77 698.79" class="st11"/>
 		</g>
-		<g id="shape110-292" v:mID="110" v:groupContext="shape" v:layerMember="1" transform="translate(572.598,-248.293)">
+		<g id="shape110-295" v:mID="110" v:groupContext="shape" v:layerMember="1" transform="translate(572.598,-248.293)">
 			<title>动态连接线.110</title>
 			<path d="M0 663.31 L0 684.57 L52.44 684.57 L52.44 698.79" class="st11"/>
 		</g>
-		<g id="shape111-297" v:mID="111" v:groupContext="shape" v:layerMember="1" transform="translate(620.079,-324.828)">
+		<g id="shape111-300" v:mID="111" v:groupContext="shape" v:layerMember="1" transform="translate(620.079,-324.828)">
 			<title>动态连接线.111</title>
 			<path d="M0 663.31 L0 684.57 L131.1 684.57 L131.1 698.79" class="st11"/>
 		</g>
