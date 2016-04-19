@@ -3,7 +3,7 @@
   background-image:none;
   position:static;
   left:auto;
-  width:393px;
+  width:1425px;
   margin-left:0;
   margin-right:0;
   text-align:left;
@@ -318,76 +318,198 @@
 }
 #u24 {
   position:absolute;
-  left:280px;
-  top:166px;
-  width:113px;
+  left:270px;
+  top:29px;
+  width:81px;
   height:21px;
   font-family:'微软雅黑 Regular', '微软雅黑';
   font-weight:400;
   font-style:normal;
   font-size:16px;
-  text-align:right;
 }
 #u24_img {
   position:absolute;
   left:0px;
   top:0px;
-  width:113px;
+  width:81px;
   height:21px;
 }
 #u25 {
   position:absolute;
   left:0px;
   top:0px;
-  width:113px;
+  width:81px;
   white-space:nowrap;
 }
 #u26 {
   position:absolute;
-  left:280px;
-  top:207px;
-  width:113px;
+  left:563px;
+  top:29px;
+  width:81px;
   height:21px;
   font-family:'微软雅黑 Regular', '微软雅黑';
   font-weight:400;
   font-style:normal;
   font-size:16px;
-  text-align:right;
 }
 #u26_img {
   position:absolute;
   left:0px;
   top:0px;
-  width:113px;
+  width:81px;
   height:21px;
 }
 #u27 {
   position:absolute;
   left:0px;
   top:0px;
-  width:113px;
+  width:81px;
   white-space:nowrap;
 }
 #u28 {
   position:absolute;
-  left:280px;
-  top:249px;
+  left:856px;
+  top:29px;
+  width:81px;
+  height:21px;
+  font-family:'微软雅黑 Regular', '微软雅黑';
+  font-weight:400;
+  font-style:normal;
+  font-size:16px;
+}
+#u28_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:81px;
+  height:21px;
+}
+#u29 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:81px;
+  white-space:nowrap;
+}
+#u30 {
+  position:absolute;
+  left:401px;
+  top:29px;
   width:113px;
   height:21px;
   font-family:'微软雅黑 Regular', '微软雅黑';
   font-weight:400;
   font-style:normal;
   font-size:16px;
-  text-align:right;
 }
-#u28_img {
+#u30_img {
   position:absolute;
   left:0px;
   top:0px;
   width:113px;
   height:21px;
 }
-#u29 {
+#u31 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:113px;
+  white-space:nowrap;
+}
+#u32 {
+  position:absolute;
+  left:694px;
+  top:29px;
+  width:113px;
+  height:21px;
+  font-family:'微软雅黑 Regular', '微软雅黑';
+  font-weight:400;
+  font-style:normal;
+  font-size:16px;
+}
+#u32_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:113px;
+  height:21px;
+}
+#u33 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:113px;
+  white-space:nowrap;
+}
+#u34 {
+  position:absolute;
+  left:987px;
+  top:29px;
+  width:113px;
+  height:21px;
+  font-family:'微软雅黑 Regular', '微软雅黑';
+  font-weight:400;
+  font-style:normal;
+  font-size:16px;
+}
+#u34_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:113px;
+  height:21px;
+}
+#u35 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:113px;
+  white-space:nowrap;
+}
+#u36 {
+  position:absolute;
+  left:1149px;
+  top:29px;
+  width:113px;
+  height:21px;
+  font-family:'微软雅黑 Regular', '微软雅黑';
+  font-weight:400;
+  font-style:normal;
+  font-size:16px;
+}
+#u36_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:113px;
+  height:21px;
+}
+#u37 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:113px;
+  white-space:nowrap;
+}
+#u38 {
+  position:absolute;
+  left:1312px;
+  top:29px;
+  width:113px;
+  height:21px;
+  font-family:'微软雅黑 Regular', '微软雅黑';
+  font-weight:400;
+  font-style:normal;
+  font-size:16px;
+}
+#u38_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:113px;
+  height:21px;
+}
+#u39 {
   position:absolute;
   left:0px;
   top:0px;
@@ -398,7 +520,7 @@ body.a {  background-color:rgba(255, 255, 255, 1);
   background-image:none;
   position:static;
   left:auto;
-  width:393px;
+  width:1425px;
   margin-left:0;
   margin-right:0;
   text-align:left;
@@ -443,11 +565,21 @@ body.a {  background-color:rgba(255, 255, 255, 1);
 }
 #u28.a {
 }
+#u30.a {
+}
+#u32.a {
+}
+#u34.a {
+}
+#u36.a {
+}
+#u38.a {
+}
 body.b {  background-color:rgba(255, 255, 255, 1);
   background-image:none;
   position:static;
   left:auto;
-  width:393px;
+  width:1425px;
   margin-left:0;
   margin-right:0;
   text-align:left;
@@ -491,4 +623,14 @@ body.b {  background-color:rgba(255, 255, 255, 1);
 #u26.b {
 }
 #u28.b {
+}
+#u30.b {
+}
+#u32.b {
+}
+#u34.b {
+}
+#u36.b {
+}
+#u38.b {
 }
