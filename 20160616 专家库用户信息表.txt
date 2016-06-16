@@ -1,0 +1,167 @@
+用户信息---------------------------------------------------------------------------------
+*****************************************************************************************
+基本信息
+select CSDNID,UserName,RealName,Gender,Birthday,Country,Province,City,District,WorkStartDate,EduDegreeCode,GraduateSchool,CurCompany,CurJob,SelfDesc,
+LoginEmail,IndustryType,MainMobile,LastUpdateDate,CreateDate,Domicile,CompanyIntro from userinfo;
+ 
+CSDNID,
+UserName,
+LoginEmail(注册邮箱),
+MainMobile(注册手机),
+RealName(真实姓名),
+Gender(性别男1女2),
+Birthday,
+Country(int,需要对照CodeItem表),
+Province(int,需要对照CodeItem表),
+City(int,需要对照CodeItem表),
+District(int,需要对照CodeItem表),
+WorkStartDate(工作起始日),
+EduDegreeCode(int,学历等级,需要对照CodeItem表),
+GraduateSchool(毕业院校),
+CurCompany(当前公司),
+CurJob(当前工作),
+SelfDesc(自我描述),
+IndustryType(int,行业类型,需要对照CodeItem表),
+LastUpdateDate(信息更新日期),
+CreateDate(注册试间),
+Domicile(家庭住址),
+CompanyIntro(公司描述)
+*****************************************************************************************
+教育经历
+select CSDNID,UserName,EduStartDate,EduEndDate,SchoolName,Degree,MajorStr,status from useredu;
+ 
+CSDNID,
+UserName,
+EduStartDate(起始日期),
+EduEndDate(结束日期),
+SchoolName(学校名称),
+Degree(int,学历等级,需要对照CodeItem表),
+MajorStr(所学专业),
+status
+*****************************************************************************************
+工作经历
+select CSDNID,UserName,WorkBeginDate,WorkEndDate,OrgName,DepartName,Job,WorkDesc,status from useredu;
+
+CSDNID,
+UserName,
+WorkBeginDate(起始日期),
+WorkEndDate(结束日期),
+OrgName(机构名称),
+DepartName(部门名称),
+Job(职位),
+WorkDesc(工作描述),
+status
+*****************************************************************************************
+感兴趣领域
+select CSDNID,UserName,InterestName,status from userinterest;
+
+CSDNID,
+UserName,
+InterestName(感兴趣领域名称),
+status
+*****************************************************************************************
+用户技能
+select CSDNID,UserName,SkillName,SkillLevel,SkillDegree,status from userskill;
+
+CSDNID,
+UserName,
+SkillName(技能名称),
+SkillLevel(技能等级),
+SkillDegree(技能分),
+status
+*****************************************************************************************
+select * from CodeItem;
+*****************************************************************************************
+用户qq,微信
+select CSDNID,UserName,ContactType,ContactValue,status from usercontact;
+
+CSDNID,
+UserName,
+ContactType(类型60 qq,100 微信号),
+ContactValue(qq号,微信号),
+status
+*****************************************************************************************
+
+用户社区信息-----------------------------------------------------------------------------
+*****************************************************************************************
+Blog专家
+select B.UserName,B.BlogId,B.Title,B.SubTitle,B.CreatedTime,P.Tag,P.Description,P.Status,P.IsCommend,P.Recommender,P.AddUser,P.AddTime from People P left join Blog B on P.BlogId=B.BlogId;
+
+UserName,
+Tag(擅长),
+Description(描述),
+Status,
+IsCommend(是否为推荐专家[出现在首页]),
+Recommender(推荐人),
+AddUser(添加人),
+AddTime(添加时间),
+BlogId(博客id),
+Title(博客标题),
+SubTitle(博客副标题),
+CreatedTime(博客创建时间)
+*****************************************************************************************
+论坛版主
+select U.UserName,F.id as forumId,F.name as forumName,F.description,F.created_at from user U left join moderator_forums M on U.id = M.moderator_id left join forums F on M.forum_id = F.id;
+select U.UserName,F.id as forumId,F.name as forumName,F.description,F.created_at from moderator_forums M left join user U on U.id = M.moderator_id left join forums F on M.forum_id = F.id;
+
+
+UserName,
+forumId(论坛id),
+forumName(论坛名称),
+description(论坛介绍),
+created_at(论坛创建时间)
+*****************************************************************************************
+问答导师
+select U.name as UserName,E.junior,E.senior,E.created_at,E.updated_at from experts E left join users U on E.user_id = U.id;
+
+UserName,
+junior(热心人),
+senior(问答导师),
+created_at(创建时间),
+updated_at(更新时间)
+*****************************************************************************************
+学院讲师
+select csdn_username as UserName,introduce,tags,description,experience,create_time,admin_remark,passedtime,edit_time,is_delete,is_recommend,recommend_desc from course_lecturer;
+
+UserName,
+introduce(讲师简介),
+tags(讲师擅长标签),
+description(描述),
+experience(培训经历),
+create_time(创建时间),
+admin_remark(管理员备注),
+passedtime(审核通过的时间),
+edit_time(最后修改时间),
+is_delete(是否删除1是 2否),
+is_recommend(是否推荐  1推荐 2不推荐),
+recommend_desc(讲师推荐语)
+*****************************************************************************************
+知识库特邀编辑
+select username as UserName,base_id,introduction,create_at,opreator,update_at,status from expert;
+
+UserName,
+base_id(负责知识库id),
+introduction(专家描述),
+create_at(创建时间),
+opreator(操作人),
+update_at(更新时间),
+status(状态 1正常 -1删除)
+*****************************************************************************************
+
+
+用户社区积分及等级-----------------------------------------------------------------------
+*****************************************************************************************
+select UserName,ScoreType,Score,LastUpdateDate from score;
+
+UserName,
+ScoreType(积分类型),
+Score(分值),
+LastUpdateDate(最后更新时间)
+
+public static int[] levelBlog = {1,100,500,1000,2000,5000,10000,30000,50000,100000,200000,300000,500000,800000,1000000};//blog等级(1-15)对应分值,类型：300
+public static int[] levelBbs = {1,100,500,1000,2000,5000,10000,30000,50000,100000,200000,300000,500000,800000,1000000};//bbs等级(1-15)对应分值,类型：201
+public static int[] levelDownload = {1,100,500,1000,2000,5000,10000,30000,50000,100000,200000,300000,500000,800000,1000000};//下载等级(1-15)对应分值,类型：400
+public static int[] levelAsk = {0,10,50,120,200,300,500,800,1200,1800,3000,5000,8000,12000,18000,30000,60000,100000,200000,400000};//问答等级(1-20)对应分值,类型：700
+public static int[] levelGeek = {0,51,101,201,501,1001,2001,4001,8001,15001};//极客头条等级(1-10)对应分值,类型：800
+
+

@@ -1,0 +1,414 @@
+{
+  "tmp_csdn_user_profile_1_2016-05": {
+    "mappings": {
+      "user": {
+        "properties": {
+          "ask_mentor": {
+            "properties": {
+              "created_at": {
+                "type": "date",
+                "format": "strict_date_optional_time||epoch_millis"
+              },
+              "junior": {
+                "type": "long"
+              },
+              "senior": {
+                "type": "long"
+              },
+              "updated_at": {
+                "type": "date",
+                "format": "strict_date_optional_time||epoch_millis"
+              }
+            }
+          },
+          "ask_score_nokeyword": {
+            "type": "double"
+          },
+          "ask_score_withkeyword": {
+            "type": "nested",
+            "properties": {
+              "keyword": {
+                "type": "string",
+                "index": "not_analyzed"
+              },
+              "score": {
+                "type": "double"
+              }
+            }
+          },
+          "bbs_admin": {
+            "type": "nested",
+            "properties": {
+              "created_at": {
+                "type": "date",
+                "format": "strict_date_optional_time||epoch_millis"
+              },
+              "description": {
+                "type": "string"
+              },
+              "forum_id": {
+                "type": "long"
+              },
+              "forum_name": {
+                "type": "string",
+                "index": "not_analyzed"
+              }
+            }
+          },
+          "bbs_score_nokeyword": {
+            "type": "double"
+          },
+          "bbs_score_withkeyword": {
+            "type": "nested",
+            "properties": {
+              "keyword": {
+                "type": "string",
+                "index": "not_analyzed"
+              },
+              "score": {
+                "type": "double"
+              }
+            }
+          },
+          "birthday": {
+            "type": "date",
+            "format": "strict_date_optional_time||epoch_millis"
+          },
+          "blog_expert_detail": {
+            "properties": {
+              "add_user": {
+                "type": "string",
+                "index": "not_analyzed"
+              },
+              "added_at": {
+                "type": "date",
+                "format": "strict_date_optional_time||epoch_millis"
+              },
+              "blog_id": {
+                "type": "string",
+                "index": "not_analyzed"
+              },
+              "cast(status as int)": {
+                "type": "long"
+              },
+              "cast(statusasint)": {
+                "type": "long"
+              },
+              "created_at": {
+                "type": "date",
+                "format": "strict_date_optional_time||epoch_millis"
+              },
+              "description": {
+                "type": "string"
+              },
+              "is_recommended": {
+                "type": "long"
+              },
+              "recommender": {
+                "type": "string",
+                "index": "not_analyzed"
+              },
+              "sub_title": {
+                "type": "string"
+              },
+              "tag": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            }
+          },
+          "blog_score_nokeyword_10": {
+            "type": "long"
+          },
+          "blog_score_nokeyword_15": {
+            "type": "long"
+          },
+          "blog_score_nokeyword_7": {
+            "type": "long"
+          },
+          "blog_score_withkeyword_10": {
+            "type": "nested",
+            "properties": {
+              "keyword": {
+                "type": "string",
+                "index": "not_analyzed"
+              },
+              "score": {
+                "type": "long"
+              }
+            }
+          },
+          "blog_score_withkeyword_15": {
+            "type": "nested",
+            "properties": {
+              "keyword": {
+                "type": "string",
+                "index": "not_analyzed"
+              },
+              "score": {
+                "type": "long"
+              }
+            }
+          },
+          "blog_score_withkeyword_7": {
+            "type": "nested",
+            "properties": {
+              "keyword": {
+                "type": "string",
+                "index": "not_analyzed"
+              },
+              "score": {
+                "type": "long"
+              }
+            }
+          },
+          "city": {
+            "type": "string"
+          },
+          "community_level": {
+            "type": "nested",
+            "properties": {
+              "level": {
+                "type": "long"
+              },
+              "score": {
+                "type": "long"
+              },
+              "score_type": {
+                "type": "string",
+                "index": "not_analyzed"
+              },
+              "updated_at": {
+                "type": "date",
+                "format": "strict_date_optional_time||epoch_millis"
+              }
+            }
+          },
+          "contact": {
+            "properties": {
+              "contact_status": {
+                "type": "long"
+              },
+              "contact_type": {
+                "type": "string"
+              },
+              "contact_value": {
+                "type": "string"
+              }
+            }
+          },
+          "contribution_degree_withkeyword": {
+            "type": "nested",
+            "properties": {
+              "keyword": {
+                "type": "string",
+                "index": "not_analyzed"
+              },
+              "score": {
+                "type": "double"
+              }
+            }
+          },
+          "country": {
+            "type": "string"
+          },
+          "create_date": {
+            "type": "date",
+            "format": "strict_date_optional_time||epoch_millis"
+          },
+          "csdn_id": {
+            "type": "long"
+          },
+          "cur_company": {
+            "type": "string"
+          },
+          "cur_job": {
+            "type": "string"
+          },
+          "district": {
+            "type": "string"
+          },
+          "edu": {
+            "properties": {
+              "degree": {
+                "type": "string"
+              },
+              "edu_end_date": {
+                "type": "date",
+                "format": "strict_date_optional_time||epoch_millis"
+              },
+              "edu_start_date": {
+                "type": "date",
+                "format": "strict_date_optional_time||epoch_millis"
+              },
+              "edu_status": {
+                "type": "long"
+              },
+              "major_str": {
+                "type": "string"
+              },
+              "school_name": {
+                "type": "string"
+              }
+            }
+          },
+          "edu_degree_code": {
+            "type": "string"
+          },
+          "edu_teacher": {
+            "properties": {
+              "admin_remark": {
+                "type": "string"
+              },
+              "created_at": {
+                "type": "date",
+                "format": "strict_date_optional_time||epoch_millis"
+              },
+              "description": {
+                "type": "string"
+              },
+              "experience": {
+                "type": "string"
+              },
+              "introduce": {
+                "type": "string"
+              },
+              "is_deleted": {
+                "type": "long"
+              },
+              "is_recommended": {
+                "type": "long"
+              },
+              "passed_at": {
+                "type": "date",
+                "format": "strict_date_optional_time||epoch_millis"
+              },
+              "recommend_desc": {
+                "type": "string"
+              },
+              "tags": {
+                "type": "string"
+              },
+              "updated_at": {
+                "type": "date",
+                "format": "strict_date_optional_time||epoch_millis"
+              }
+            }
+          },
+          "gender": {
+            "type": "string"
+          },
+          "graduate_school": {
+            "type": "string"
+          },
+          "id": {
+            "type": "string"
+          },
+          "industry_type": {
+            "type": "string"
+          },
+          "interest": {
+            "properties": {
+              "interest_name": {
+                "type": "string"
+              },
+              "interest_status": {
+                "type": "long"
+              }
+            }
+          },
+          "invitation_status": {
+            "type": "long"
+          },
+          "is_expert": {
+            "type": "long"
+          },
+          "last_update_date": {
+            "type": "date",
+            "format": "strict_date_optional_time||epoch_millis"
+          },
+          "lib_editor": {
+            "type": "nested",
+            "properties": {
+              "base_id": {
+                "type": "long"
+              },
+              "created_at": {
+                "type": "date",
+                "format": "strict_date_optional_time||epoch_millis"
+              },
+              "introduction": {
+                "type": "string"
+              },
+              "operator": {
+                "type": "string",
+                "index": "not_analyzed"
+              },
+              "status": {
+                "type": "long"
+              },
+              "updated_at": {
+                "type": "date",
+                "format": "strict_date_optional_time||epoch_millis"
+              }
+            }
+          },
+          "login_email": {
+            "type": "string"
+          },
+          "main_mobile": {
+            "type": "string"
+          },
+          "province": {
+            "type": "string"
+          },
+          "real_name": {
+            "type": "string"
+          },
+          "self_desc": {
+            "type": "string"
+          },
+          "skill": {
+            "properties": {
+              "skill_level": {
+                "type": "string"
+              },
+              "skill_name": {
+                "type": "string"
+              },
+              "skill_status": {
+                "type": "long"
+              }
+            }
+          },
+          "work": {
+            "properties": {
+              "job": {
+                "type": "string"
+              },
+              "org_name": {
+                "type": "string"
+              },
+              "work_begin_date": {
+                "type": "date",
+                "format": "strict_date_optional_time||epoch_millis"
+              },
+              "work_desc": {
+                "type": "string"
+              },
+              "work_end_date": {
+                "type": "date",
+                "format": "strict_date_optional_time||epoch_millis"
+              },
+              "work_status": {
+                "type": "long"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
